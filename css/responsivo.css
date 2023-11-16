@@ -1,0 +1,265 @@
+.nav-bar{
+        height: 50px; /* tamanho na vertical */
+        margin-bottom: -5%; /* distancia para baixo */
+        margin-top: -4.7%; /* distancia do topo */
+}
+
+.nav-title{
+        font-size: 15px; /* tamanho do meu titulo principal "Aleph Silva Ramos" */
+        margin-left: 0%; /* margem a esquerda */
+        width: 100%; /* tamanho total do titlo */
+        margin: 10px 10px 0px 92px; /* margem de todos os cantos */
+}
+
+.icons-bar{
+        display: none;
+    
+}
+
+/* final da nav-bar */
+
+.topic-1{
+    width: 100%; /* tamanho horizontal total do topico 1 */
+    height: 90%; /* tamanho vertical total do tópico 1 */
+    margin-top: 40px; /* distância da nav-bar */
+}
+
+.topic-1-img-1{
+    width: 150px; /* tamanho da imagem numero 1 'a posicionada a direita' */
+    height: 200px; /* tamanho da imagem numero 1 'a posicionada a direita' */
+    margin-left: 24%; /* distancia a esquerda para ficar na dimensão certa */
+    margin-top: 20%; /* margem para não ficar grudado no topo da section */
+    margin-bottom: 10%; /* distancia para baixo */
+}
+
+.topic-1-img-1:hover{
+    transform: scale(1.1); /* tamanho da imagem na transição */
+}
+
+.topic-1-img-2{
+    width: 150px; /* tamanho da imagem numero 2 'a posicionada a esquerda' */
+    margin-left: 28%; /* distância da esquerda, para ficar do lado oposto a outra imagem */
+    margin-top: -22%; /* distancia posta para subir um pouco a imagem */
+    height: 200px; /* tamanho da imagem numero 2 'a posicionada a esquerda' */
+    margin-bottom: 10.67%; /* margem posta para ter mais um pouco de fundo além da imagem */
+}
+
+.topic-1-img-2:hover{
+    transform: scale(1.2); /* tamanho da imagem na transição */
+}
+
+.topic-1-title{
+    font-size: 30px; /* tamanho da fonte do titulo "sobre mim" */
+    margin-top: -100%; /* distância com relação ao topo da section */
+    margin-left: 20%; /* distância com relação a imagem 1 */
+}
+
+.topic-1-paragraph-1{ 
+    font-size: 12px; /* tamanho da fonte do paragráfo 1 */
+    width: 250px; /* tamanho do paragráfo 1 */
+    margin-top: 80%; /* distância do topo */
+    margin-left: 5%; /* margem com relação a imagem 1 */
+}
+
+.topic-1-paragraph-2{
+    font-size: 12px; /* tamanho da fonte do paragráfo 2 */
+    margin-bottom: 30%;
+    width: 250px; /* tamanho total do paragráfo 2 */
+    margin-left: 5%; /* margem com relação ao começo da section */
+    margin-top: 0%; /* distância com relação a imagem 1 */
+}
+
+/* final do topic 1 */
+
+.topic-2{
+    width: 100%;
+    padding: 20px 20px;
+    margin-top: -20px;
+}
+
+.topic-2-title{
+    font-size: 30px;
+}
+
+.topic-2-imgs{
+    display: flex;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    max-width: 1500px; /* Defina a largura máxima do contêiner de imagens */
+}
+
+.topic-2-img-1{
+    width: 110px;
+    margin: 3px;
+}
+
+.topic-2-img-1:hover{
+    transform: scale(1.1);
+}
+
+.topic-2-p-fim{
+    font-size: 15px;
+    opacity: 50%;
+    padding: 2px;
+}
+
+/* final do topic 2 */
+
+.topic-3-title{
+    font-size: 30px;
+}
+
+.topic-3-imgs{
+    margin: 0 auto; /* Centraliza o conteúdo */
+    max-width: 1500px; /* Defina a largura máxima do contêiner de imagens */
+}
+
+.topic-3-img-1{
+    width: 200px;
+    box-shadow: 1px 1px 20px 1px rgb(255, 255, 255, 0.5);
+    margin: 5px;
+}
+
+.topic-3-img-1:hover{
+    transform: scale(1.1) translateX(0px);
+}
+
+.topic-3-img-2{
+    width: 200px;
+    box-shadow: 1px 1px 20px 1px rgb(255, 255, 255, 0.5);
+    margin: 5px;
+}
+
+.topic-3-img-2:hover{
+    transform: scale(1.1) translateX(-0px);
+}
+
+.topic-3-img-3{
+    width: 200px;
+    box-shadow: 1px 1px 20px 1px rgb(255, 255, 255, 0.5);
+    margin: 5px;
+}
+
+.topic-3-img-3:hover{
+    transform: scale(1.1) translateX(0px);
+}
+
+.topic-3-list{
+    font-size: 11px;
+    margin-left: -5%;
+    list-style-image: url(/img/icons/list-16px.png);
+    column-count: 1; /* Define o número de colunas */
+    column-gap: 0px; /* Define o espaço entre as colunas */
+
+}
+
+.topic-3-p-1{
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 20px;
+}
+
+.topic-3-p-fim{
+    font-size: 13px;
+    padding: 40px;
+}
+
+/* final do topic 3 */
+
+.topic-4{
+    margin-top: -20px;
+}
+
+.topic-4-title{
+    font-size: 30px;
+    padding: 2px;
+}
+
+.topic-4-imgs{
+    margin: 0 auto; /* Centraliza o conteúdo */
+    max-width: 1500px; /* Defina a largura máxima do contêiner de imagens */
+}
+
+.topic-4-img-1{
+    width: 220px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.topic-4-img-1:hover{
+    transform: scale(1.1) translateX(0px);
+}
+
+.topic-4-img-2{
+    width: 220px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.topic-4-img-2:hover{
+    transform: scale(1.1) translateX(0px);
+}
+
+.topic-4-p-fim{
+    font-size: 12px;
+    padding: 20px;
+}
+
+/* final do topic 4 */
+
+footer{
+    margin-top: -4%;
+}
+
+.fotter-title{
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2px;
+}
+
+.fotter-contat{
+    font-size: 15px;
+    margin-top: 70px;
+    padding: 2px;
+}
+
+.img-fotter{
+    width: 2rem; /* tamanho da imagem horizontal */
+    height: 2rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
+    margin: 4px; /* margem de uma imagem para outra */
+}
+
+.img-fotter:hover{
+    width: 2rem; /* tamanho da imagem horizontal */
+    height: 2rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
+    margin: 8px; /* margem de uma imagem para outra */
+    transform: translateX(0px) scale(1.5); /* quanto ele vai andar no eixo X */
+}
+
+.fotter-p-fim{
+    font-size: 10px;
+    opacity: 40%;
+    text-align: center;
+    padding: 20px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos específicos para dispositivos tablets */
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    /* Estilos específicos para dispositivos desktop */
+}
+
+@media only screen and (min-width: 1280px) {
+    /* Estilos específicos para dispositivos desktop com alta resolução */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* Estilos específicos para dispositivos com taxa de pixels 2:1 ou superior (por exemplo, iPhone 4s e superior, iPad 3 e superior) */
+}

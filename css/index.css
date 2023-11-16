@@ -44,8 +44,13 @@ html, body{
   color: white;
 }
 
-.title-bar {
+.nav-title {
   font-size: 24px; /* Tamanho médio para PC e Tablet */
+}
+
+.icons-bar{
+widht: 2.5rem;
+height: 2.5rem;
 }
 
 .links {

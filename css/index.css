@@ -32,52 +32,69 @@ html, body{
     background-color: #000000; /* fundo ao mexer na barra */
 }
 
-.nav-bar{
-    background-image: black; /* cor de fundo da navbar */
-    display: flex; /* faz com que tudo fique alinhado na horizontal */
-    height: 100px; /* tamanho na vertical */
-    box-shadow: inset 10px 10px 80px 30px black; /* sombra externa, fazendo ter um efeito de opacidade menor */
-    position: fixed; /* fixa, não se mexe ao rolar */
-    margin-bottom: -5%; /* distancia para baixo */
-    margin-top: -4.7%; /* distancia do topo */
-    z-index: 999; /* define a posição dela com relação a outros itens, ficando acima deles por ser maior */
-    width: 100%; /* tamanho na horizontal */
-    align-items: center; /* alinhar todos os itens ao centro */
-    justify-content: space-between; /* alinha os itens no conteiner fazendo ter um espaço igual entre eles */
+/* Estilos para dispositivos maiores, como computadores e tablets */
+.nav-bar {
+    background-image: black;
+    display: flex;
+    height: 100px;
+    box-shadow: inset 10px 10px 80px 30px black;
+    position: fixed;
+    margin-bottom: -5%;
+    margin-top: -4.7%;
+    z-index: 999;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.nav-title{
-    font-size: 60px; /* tamanho do meu titulo principal "Aleph Silva Ramos" */
-    justify-content: center; /* alinhar ao centro */
-    align-items: center; /* alinhar ao centro */
-    margin-left: 10%; /* margem a esquerda */
-    width: 30%; /* tamanho total do titlo */
-    font-family: 'Dancing Script', cursive; /* fonte do titulo */
-    margin: 20px 50px 20px 100px; /* margem de todos os cantos */
-    color: #f5f5ff; /* cor do texto */
+.nav-title {
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    font-family: 'Dancing Script', cursive;
+    color: #f5f5ff;
+    text-align: center; /* Alinhamento centralizado do texto */
 }
 
-.icons-bar{
-    margin-right: 100px; /* a margem a direita das imagens */
-
+.icons-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
 }
 
-.img-bar{
-    width: 3.5rem; /* tamanho da imagem horizontal */
-    height: 3.5rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
-    margin: 8px; /* margem de uma imagem para outra */
-    transition: 0.4s ease-in-out; /* transição ao passar o mouse por cima, fazendo ele ir e voltar de acordo como eu definir */
+.img-bar {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 8px;
+    transition: 0.4s ease-in-out;
 }
 
-.img-bar:hover{
-    width: 3.8rem; /* tamanho da imagem horizontal */
-    height: 3.8rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
-    margin: 10px; /* margem de uma imagem para outra */
-    transition: 0.2s; /* tempo da transição */
-    transform: translateX(-2px); /* quanto ele vai andar no eixo X */
-    transform: translateY(-5px); /* quanto ele vai andar no eixo Y */
-    cursor: url('/img/icons/cursor-a.png'), auto; /* cursor especifico */
+.img-bar:hover {
+    width: 3.8rem;
+    height: 3.8rem;
+    margin: 10px;
+    transition: 0.2s;
+    transform: translateX(-2px) translateY(-5px);
+    cursor: url('/img/icons/cursor-a.png'), auto;
 }
+
+/* Estilos para dispositivos menores, como telefones */
+@media only screen and (max-width: 768px) {
+    .nav-bar {
+        justify-content: center; /* Centraliza a barra de navegação */
+    }
+
+    .icons-bar {
+        display: none; /* Oculta os ícones em dispositivos menores */
+    }
+
+    .nav-title {
+        width: 100%; /* Usa toda a largura disponível para o título */
+        margin: 20px; /* Adiciona margem para melhor visualização */
+    }
+}
+```
 
 /* fim da nav-bar e começo do tópico 1 */
 

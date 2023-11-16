@@ -346,43 +346,17 @@ html, body{
 
 /* fim da section 1 e inicio da section 2 */
 
-.topic-2{
-    background: white;
-    width: 100%;
-    padding: 20px 20px;
-    margin-top: -20px;
-    border-top: 1px solid rgb(255, 255, 255);
-}
-
-.topic-2-title{
-    font-size: 80px;
-    color: white;
-    text-align: center;
-    font-family: 'Dancing Script', cursive; /* fonte do titulo */
-}
-
-.topic-2-imgs{
+/* Estilos para dispositivos maiores */
+.topic-2-imgs {
     display: flex;
-    margin: 0 auto; /* Centraliza o conteúdo */
-    max-width: 1200px; /* Defina a largura máxima do contêiner de imagens */
-    flex-wrap: wrap; /* Permite que as imagens se movam para a próxima linha em telas menores */
+    margin: 0 auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-.topic-2-img-1{
-    width: 300px;
-    border-radius: 10px;
-    margin: 5px;
-    transition: transform 0.6s ease;
-    box-shadow: 1px 1px 20px 1px black;
-}
-
-.topic-2-img-1:hover{
-    transform: scale(1.2);
-}
-
-.topic-2-img-2{
+.topic-2-img {
     width: 300px;
     margin: 5px;
     border-radius: 10px;
@@ -390,53 +364,29 @@ html, body{
     box-shadow: 1px 1px 20px 1px black;
 }
 
-.topic-2-img-2:hover{
+.topic-2-img:hover {
     transform: scale(1.2);
 }
 
-.topic-2-img-3{
-    width: 300px;
-    margin: 5px;
-    border-radius: 10px;
-    transition: transform 0.6s ease;
-    box-shadow: 1px 1px 20px 1px black;
-}
-
-.topic-2-img-3:hover{
-    transform: scale(1.2);
-}
-
-.topic-2-img-4{
-    width: 300px;
-    margin: 5px;
-    border-radius: 10px;
-    transition: transform 0.6s ease;
-    box-shadow: 1px 1px 20px 1px black;
-}
-
-.topic-2-img-4:hover{
-    transform: scale(1.2);
-}
-
-.topic-2-img-5{
-    width: 300px;
-    margin: 5px;
-    border-radius: 10px;
-    transition: transform 0.6s ease;
-    box-shadow: 1px 1px 20px 1px black;
-}
-
-.topic-2-img-5:hover{
-    transform: scale(1.2);
-}
-
-.topic-2-p-fim{
+.topic-2-p-fim {
     font-size: 20px;
     color: white;
     font-family: 'Baloo 2', sans-serif;
     opacity: 70%;
     text-align: center;
     padding: 20px;
+}
+
+/* Estilos para dispositivos menores */
+@media only screen and (max-width: 768px) {
+    .topic-2-img {
+        width: 100%; /* As imagens ocuparão toda a largura disponível */
+        max-width: 250px; /* Definindo um tamanho máximo para as imagens */
+    }
+
+    .topic-2-imgs {
+        justify-content: center; /* Centraliza as imagens em telas menores */
+    }
 }
 
 /* fechamento do topico 2 e abertura do topico 2 */

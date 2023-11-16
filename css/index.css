@@ -33,68 +33,45 @@ html, body{
 }
 
 /* Estilos para dispositivos maiores, como computadores e tablets */
+/* Estilos padrão */
+
 .nav-bar {
-    background-image: black;
-    display: flex;
-    height: 100px;
-    box-shadow: inset 10px 10px 80px 30px black;
-    position: fixed;
-    margin-bottom: -5%;
-    margin-top: -4.7%;
-    z-index: 999;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
 }
 
-.nav-title {
-    font-size: 60px;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    font-family: 'Dancing Script', cursive;
-    color: #f5f5ff;
-    text-align: center; /* Alinhamento centralizado do texto */
+.title-bar {
+  font-size: 24px; /* Tamanho médio para PC e Tablet */
 }
 
-.icons-bar {
-    display: flex;
-    align-items: center;
-    margin-right: 100px;
+.links {
+  display: flex;
 }
 
-.img-bar {
-    width: 3.5rem;
-    height: 3.5rem;
-    margin: 8px;
-    transition: 0.4s ease-in-out;
+.links a {
+  margin-left: 10px;
 }
 
-.img-bar:hover {
-    width: 3.8rem;
-    height: 3.8rem;
-    margin: 10px;
-    transition: 0.2s;
-    transform: translateX(-2px) translateY(-5px);
-    cursor: url('/img/icons/cursor-a.png'), auto;
+.links a img {
+  width: 30px; /* Tamanho menor para PC e Tablet */
+  height: 30px; /* Tamanho menor para PC e Tablet */
 }
 
-/* Estilos para dispositivos menores, como telefones */
+/* Media queries para telas menores (telefone) */
 @media only screen and (max-width: 768px) {
-    .nav-bar {
-        justify-content: center; /* Centraliza a barra de navegação */
-    }
+  .title {
+    text-align: center; /* Título no meio */
+    font-size: 16px; /* Tamanho menor para telefone */
+  }
 
-    .icons-bar {
-        display: none; /* Oculta os ícones em dispositivos menores */
-    }
-
-    .nav-title {
-        width: 100%; /* Usa toda a largura disponível para o título */
-        margin: 20px; /* Adiciona margem para melhor visualização */
-    }
+  .links {
+    display: none; /* Esconde as imagens para telefone */
+  }
 }
-```
 
 /* fim da nav-bar e começo do tópico 1 */
 

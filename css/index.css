@@ -389,6 +389,22 @@ html, body{
     }
 }
 
+/* Estilos para computadores */
+@media only screen and (min-width: 1025px) {
+    .topic-2-img {
+        width: 250px; /* Reduzindo um pouco o tamanho das imagens para telas maiores */
+        margin: 10px; /* Aumentando a margem entre as imagens */
+    }
+}
+
+
+/* Estilos para tablets */
+@media only screen and (max-width: 1024px) {
+    .topic-2-img {
+        width: 50%; /* As imagens ocuparão metade da largura da tela do tablet */
+        max-width: 300px; /* Definindo um tamanho máximo para as imagens */
+    }
+
 /* fechamento do topico 2 e abertura do topico 2 */
 
 

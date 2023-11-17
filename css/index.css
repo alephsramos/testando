@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+section{
+    box-shadow: 100px 100px 100px 200px rgb(0, 0, 0, 0.5);
+}
+
 html, body{
     margin: 0; /* margem do html e body */
     background: #000000; /* fundo do site */
@@ -36,7 +40,7 @@ html, body{
     background-image: black; /* cor de fundo da navbar */
     display: flex; /* faz com que tudo fique alinhado na horizontal */
     height: 100px; /* tamanho na vertical */
-    box-shadow: inset 10px 10px 80px 30px black; /* sombra externa, fazendo ter um efeito de opacidade menor */
+    box-shadow: inset 1px 1px 80px 1px black; /* sombra externa, fazendo ter um efeito de opacidade menor */
     position: fixed; /* fixa, não se mexe ao rolar */
     margin-bottom: -5%; /* distancia para baixo */
     margin-top: -4.7%; /* distancia do topo */
@@ -63,15 +67,15 @@ html, body{
 }
 
 .img-bar{
-    width: 3.5rem; /* tamanho da imagem horizontal */
-    height: 3.5rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
+    width: 3.0rem; /* tamanho da imagem horizontal */
+    height: 3.0rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
     margin: 8px; /* margem de uma imagem para outra */
     transition: 0.4s ease-in-out; /* transição ao passar o mouse por cima, fazendo ele ir e voltar de acordo como eu definir */
 }
 
 .img-bar:hover{
-    width: 3.8rem; /* tamanho da imagem horizontal */
-    height: 3.8rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
+    width: 3.3rem; /* tamanho da imagem horizontal */
+    height: 3.3rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
     margin: 10px; /* margem de uma imagem para outra */
     transition: 0.2s; /* tempo da transição */
     transform: translateX(-2px); /* quanto ele vai andar no eixo X */
@@ -92,7 +96,7 @@ html, body{
 
 .topic-1-img-1{
     width: 550px; /* tamanho da imagem numero 1 'a posicionada a direita' */
-    height: 800px; /* tamanho da imagem numero 1 'a posicionada a direita' */
+    height: 600px; /* tamanho da imagem numero 1 'a posicionada a direita' */
     margin-left: 10%; /* distancia a esquerda para ficar na dimensão certa */
     margin-top: 4%; /* margem para não ficar grudado no topo da section */
     margin-bottom: 10%; /* distancia para baixo */
@@ -123,13 +127,17 @@ html, body{
     font-family: 'Dancing Script', cursive; /* fonte do titulo */
     margin-top: -40%; /* distância com relação ao topo da section */
     margin-left: 50%; /* distância com relação a imagem 1 */
-    color: #facb8b; /* cor da fonte */
+    color: #ffffff; /* cor da fonte */
 }
 
 .topic-1-paragraph-1{ 
     font-size: 32px; /* tamanho da fonte do paragráfo 1 */
     width: 1000px; /* tamanho do paragráfo 1 */
-    color: #9fc6cb; /* cor da fonte */
+    color: #000000; /* cor da fonte */
+    background: white;
+    border-radius: 5px 40px 40px 5px;
+    padding: 15px;
+    box-shadow: 1px 1px 100px 100px rgb(0, 0, 0, 0.6), inset 10px 10px 100px 100px rgba(0, 0, 0, 0.1);
     font-family: 'Baloo 2', sans-serif; /* fonte especifica para o paragrafo (essa fonte foi importada) */
     line-height: 1.2; /* espaçamento da linha para baixo */
     margin-top: -3%; /* distância do topo */
@@ -138,9 +146,13 @@ html, body{
 }
 
 .topic-1-paragraph-2{
-    color: #c2b4c5; /* cor da fonte */
+    color: #000000; /* cor da fonte */
     font-family: 'Baloo 2', sans-serif; /* fonte especifica para o paragrafo 2 (essa fonte foi importada) */
     line-height: 1.2; /* espaçamento da linha para baixo */
+    background: white;
+    border-radius: 40px 5px 5px 40px;
+    padding: 15px;
+    box-shadow: 1px 1px 100px 100px rgb(0, 0, 0, 0.6), inset 10px 10px 100px 100px rgba(0, 0, 0, 0.1);
     font-size: 30px; /* tamanho da fonte do paragráfo 2 */
     width: 1100px; /* tamanho total do paragráfo 2 */
     margin-left: 10%; /* margem com relação ao começo da section */
@@ -148,8 +160,6 @@ html, body{
     margin-top: 20%; /* distância com relação a imagem 1 */
     z-index: 3; /* posição dela com relação aos outros itens */
 }
-
-
 /* fim da section 1 e inicio da section 2 */
 
 .topic-2{

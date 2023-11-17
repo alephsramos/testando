@@ -799,15 +799,15 @@ footer{
 }
 
 .img-bar{
-    width: 3.5rem; /* tamanho da imagem horizontal */
-    height: 3.5rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
-    margin: 8px; /* margem de uma imagem para outra */
+    width: 3.0rem; /* tamanho da imagem horizontal */
+    height: 3.0rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
+    margin: 5px; /* margem de uma imagem para outra */
 }
 
 .img-bar:hover{
-    width: 3rem; /* tamanho da imagem horizontal */
-    height: 3rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
-    margin: 10px; /* margem de uma imagem para outra */
+    width: 2.5rem; /* tamanho da imagem horizontal */
+    height: 2.5rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
+    margin: 4px; /* margem de uma imagem para outra */
 }
 
 /* final da nav-bar */
@@ -820,21 +820,21 @@ footer{
 
 .topic-1-img-1{
     width: 600px; /* tamanho da imagem numero 1 'a posicionada a direita' */
-    height: 800px; /* tamanho da imagem numero 1 'a posicionada a direita' */
+    height: 700px; /* tamanho da imagem numero 1 'a posicionada a direita' */
     margin-left: 5%; /* distancia a esquerda para ficar na dimensão certa */
     margin-top: 5%; /* margem para não ficar grudado no topo da section */
     margin-bottom: 10%; /* distancia para baixo */
 }
 
 .topic-1-img-1:hover{
-    transform: scale(1.1); /* tamanho da imagem na transição */
+    transform: scale(1.1) translateX(-20px); /* tamanho da imagem na transição */
 }
 
 .topic-1-img-2{
     width: 620px; /* tamanho da imagem numero 2 'a posicionada a esquerda' */
-    margin-left: 68%; /* distância da esquerda, para ficar do lado oposto a outra imagem */
-    margin-top: -42%; /* distancia posta para subir um pouco a imagem */
-    height: 800px; /* tamanho da imagem numero 2 'a posicionada a esquerda' */
+    margin-left: 69%; /* distância da esquerda, para ficar do lado oposto a outra imagem */
+    margin-top: -52%; /* distancia posta para subir um pouco a imagem */
+    height: 850px; /* tamanho da imagem numero 2 'a posicionada a esquerda' */
     margin-bottom: 10.67%; /* margem posta para ter mais um pouco de fundo além da imagem */
 }
 
@@ -884,6 +884,7 @@ footer{
 .topic-2-img-1{
     width: 420px;
     margin: 8px;
+    border: 3px solid white;
 }
 
 .topic-2-img-1:hover{
@@ -921,6 +922,7 @@ footer{
     width: 500px;
     box-shadow: 1px 1px 20px 1px rgb(255, 255, 255, 0.5);
     margin: 5px;
+    z-index: 90;
 }
 
 .topic-3-img-2:hover{
@@ -982,7 +984,7 @@ footer{
 }
 
 .topic-4-img-1:hover{
-    transform: scale(1.1) translateX(-10px);
+    transform: scale(1.1) translateX(-30px);
 }
 
 .topic-4-img-2{
@@ -992,7 +994,7 @@ footer{
 }
 
 .topic-4-img-2:hover{
-    transform: scale(1.1) translateX(10px);
+    transform: scale(1.1) translateX(30px);
 }
 
 .topic-4-p-fim{
@@ -1004,40 +1006,41 @@ footer{
 
 footer{
     margin-top: -1.2%;
+    margin-bottom: -1.2%;
 }
 
 .fotter-title{
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 70px;
     margin-left: 2%;
     margin-right: 2%;
-    padding: 2px;
+    padding: 10px;
 }
 
 .fotter-contat{
     font-size: 30px;
-    margin-top: 70px;
+    margin-top: 180px;
     padding: 2px;
 }
 
 .img-fotter{
-    width: 5.0rem; /* tamanho da imagem horizontal */
-    height: 5.0rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
-    margin: 4px; /* margem de uma imagem para outra */
+    width: 4.0rem; /* tamanho da imagem horizontal */
+    height: 4.0rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
+    margin: 8px; /* margem de uma imagem para outra */
 }
 
 .img-fotter:hover{
-    width: 5.4rem; /* tamanho da imagem horizontal */
-    height: 5.4rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
+    width: 3.4rem; /* tamanho da imagem horizontal */
+    height: 3.4rem; /* tamanho da imagem vertical, nota-se que deixei os valores iguais para ter um quadrado perfeito */
     margin: 8px; /* margem de uma imagem para outra */
-    transform: translateX(0px) scale(1.5); /* quanto ele vai andar no eixo X */
 }
 
 .fotter-p-fim{
     font-size: 25px;
-    opacity: 40%;
+    opacity: 70%;
     text-align: center;
-    padding: 20px;
+    padding: 80px;
+
 }
 }
 
